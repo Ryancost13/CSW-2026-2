@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: separate;
+    background-image:  linear-gradient(to bottom, #E0F2FE, #407bbe);
+    border-spacing: 0;
+    border: 1px solid #cccceb;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.50);
+    padding: 6px;
+    margin: 12px;
+    border-collapse: collapse;
+}
+th{
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+body {
+    background-color: #c3e2f7;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    text-align: center;
+    color: #000000;
+}
+
+form{
+    margin: 0 auto;
+    width: 50%;
+}

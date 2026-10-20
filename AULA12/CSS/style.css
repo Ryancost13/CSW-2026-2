@@ -1,0 +1,28 @@
+div {
+    border: 2px solid rgb(179, 103, 103);
+    margin: 10px;
+    padding: 10px;
+}
+
+td {
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(225, 250, 2);
+    background-color: rgb(2, 247, 255);
+}
+
+a::before {
+    content: "✳ ";
+}
+
+a::after {
+    content: " ✳";
+}
+
+.passar:hover {
+    background-color: rgb(202, 14, 14);
+}
+
+.clicar:active {
+    background-color: rgba(23, 9, 211, 0.397);
+}

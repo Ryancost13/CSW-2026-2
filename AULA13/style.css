@@ -1,0 +1,86 @@
+        body{
+            background-image: radial-gradient(circle, rgb(255, 0, 0) 10%, #000000);;
+        }
+        div {
+            border: 1px solid rgb(255, 255, 255);
+            padding: 10px;
+            margin: 5px;
+        }
+
+        hr {
+            border: none;
+            height: 7px;
+            background-image: radial-gradient(circle, red 10%, #000000);
+            border-radius: 100px;
+        }
+
+        .principal {
+            align-items: center;
+            border: 0px;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 50px;
+           -webkit-text-stroke: 1px rgb(0, 0, 0);
+           color: white;
+        }
+        h2{
+            -webkit-text-stroke: 0.75px rgb(0, 0, 0);
+           color: white;
+        }
+
+        .caixa {
+            display: flex;
+            border: 2.5px solid rgb(255, 255, 255);
+            color: white;
+            -webkit-text-stroke: 0.25px rgb(0, 0, 0);
+        }
+
+        .bloco1 {
+            flex-grow: 1;
+            background-color: #333333;
+        }
+
+        .bloco2 {
+            flex-grow: 1;
+            background-color: #5C4033;
+        }
+
+        .bloco3 {
+            flex-grow: 1;
+            background-color: #002FA7;
+        }
+
+        .bloco1:hover {
+            text-decoration: underline;
+        }
+
+        .bloco2:hover {
+            text-decoration: underline;
+        }
+
+        .bloco3:hover {
+            text-decoration: underline;
+        }
+
+        .normal {
+            flex-grow: 1;
+        }
+
+        .terceiro {
+            flex-grow: 2;
+            background-color: #FF1493;
+        }
+
+        .terceiro:active {
+            background-color: rgba(255, 0, 0, 0.404);
+        }
+
+        .direita {
+            display: flex;
+            justify-content: flex-end;
+            border: 2.5px solid rgb(255, 255, 255);
+            color: white;
+            -webkit-text-stroke: 0.25px rgb(0, 0, 0);
+        }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Inscrição para Vaga</h1>
+        <form action="/enviar-inscricao" method="POST" enctype="multipart/form-data">
+
+            <div>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" autocomplete="name" required>
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+
+            <div>
+                <label for="celular">Celular / WhatsApp:</label>
+                <input type="tel" id="celular" name="celular" autocomplete="tel" pattern="[0-9]{2}[0-9]{5}[0-9]{4}"
+                    placeholder="27999998888" required>
+            </div>
+
+            <div>
+                <label for="area-interesse">Área de Interesse:</label>
+                <select id="area-interesse" name="area_interesse" required>
+                    <option value="" disabled selected>Selecione uma área...</option>
+                    <option value="desenvolvimento">Desenvolvimento de Software</option>
+                    <option value="design">Design / UX / UI</option>
+                    <option value="dados">Dados e Analytics</option>
+                    <option value="marketing">Marketing Digital</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="curriculo">Currículo (Somente PDF):</label>
+                <input type="file" id="curriculo" name="curriculo" accept=".pdf" required>
+            </div>
+
+            <div>
+                <input type="checkbox" id="lgpd" name="consentimento_lgpd" value="aceito" required>
+                <label for="lgpd">Estou ciente e consinto com o tratamento dos meus dados pessoais para a finalidade
+                    deste processo seletivo, conforme a LGPD.</label>
+            </div>
+
+            <div>
+                <button type="submit">Enviar Inscrição</button>
+            </div>
+    </div>
+
+    </form>
+</body>
+
+</html>
